@@ -29,7 +29,7 @@ h1 {
   letter-spacing: 5px;
   font-size: 50px;
   /*TODO: Change the font-family property to your linked font*/
-  font-family: "Roboto Mono", sans-serif;
+  font-family: font-family: 'Bebas Neue', cursive;
   color: #43d6b9ff;
   text-align: center;
 }

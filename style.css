@@ -17,7 +17,7 @@ body,
 html {
   height: 100%;
   font-size: 20px; /* Change the font size*/
-  font-family: "Roboto", sans-serif; /* Change the font */
+  font-family: font-family: 'Bebas Neue', cursive; /* Change the font */
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
@@ -38,7 +38,7 @@ h1 {
 h2 {
   letter-spacing: 3px;
   font-size: 25px;
-  font-family: "Roboto Mono", sans-serif;
+  font-family: font-family: 'Bebas Neue', cursive;
   color: #43d6b9ff;
   text-align: center;
   line-height: 1.3em;

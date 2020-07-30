@@ -228,11 +228,13 @@ like a checkmark!
   }
 }
 
+h2{
+ 
+  
+}
 
  
-
-#how-to {
+.how-to {
   display: flex;
-  align-self:stretch;
-  flex-direction: column;
+  align-items: center;
 }

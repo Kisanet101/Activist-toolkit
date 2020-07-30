@@ -228,7 +228,11 @@ like a checkmark!
   }
 }
 
-.how-do {
+
+ 
+
+#how-to {
   display: flex;
-  flex-direction: row;
+  align-self:stretch;
+  flex-direction: column;
 }

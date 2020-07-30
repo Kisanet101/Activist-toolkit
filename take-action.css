@@ -4,9 +4,13 @@
 
 .page-header-action {
   width: 100%;
-  position: absolute;
+  position: fixed;
   text-transform: uppercase;
-  background-color: #0D38D3;
+  background-color: #C38D9E;
+  margin-top: 0px;
+  margin-botton: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 
@@ -221,4 +225,9 @@ like a checkmark!
     width: 50%;
     margin-right: 10%;
   }
+}
+
+.how-do {
+  display: flex;
+  flex-direction: row;
 }

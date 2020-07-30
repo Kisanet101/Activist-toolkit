@@ -205,7 +205,9 @@ li.nav a:hover {
 .image-three {
     background-image: url("https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2Ffinal%20in%20edu%20.png?v=1596134504093");
   }
-
+.image-four {
+  background-imgage: url("https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2FResponsive%20map.png?v=1596140237601");
+}
 
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
@@ -249,12 +251,17 @@ li.nav a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
 }  
 
 .text-section3 {
-   background-color: #85DCB;
-display: flex
   
+  display: flex;
+   background-color: #85DCB;
+  padding: 20px 45px;
+  margin: 35px;
+  text-align: center;
 }
 
 
@@ -281,7 +288,7 @@ justify-content:center;
   
 }
 
-.image-four,
+/*.image-four,
 .image-five {
   display: flex; 
   flex-wrap: nowrap;

@@ -175,7 +175,8 @@ li.nav a:hover {
 .main-message,
 .image-one, 
 .image-two, 
-.image-three{
+.image-three,
+.image-four {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -206,7 +207,7 @@ li.nav a:hover {
     background-image: url("https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2Ffinal%20in%20edu%20.png?v=1596134504093");
   }
 .image-four {
-  background-imgage: url("https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2FResponsive%20map.png?v=1596140237601");
+  background-image: url("https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2Fimg%20of%20map%20bigger%20top.png?v=1596145984618");
 }
 
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
@@ -263,9 +264,6 @@ li.nav a:hover {
   margin: 35px;
   text-align: center;
 }
-
-
-
 
 
 

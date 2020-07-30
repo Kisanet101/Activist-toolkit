@@ -266,3 +266,14 @@ justify-content:center;
   margin-top: 10px;
 }
 
+.image-four,
+.image-five {
+  display: flex; 
+  flex-wrap: nowrap;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 16px;
+  margin: 20px;
+}

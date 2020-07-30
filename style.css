@@ -88,7 +88,7 @@ li.nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.3em;
 }
 
 /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
@@ -129,7 +129,7 @@ li.nav a:hover {
 .heading-home {
   padding: 2%;
   color: #C38D9E;
-  font-size: 50px;
+  font-size: 49px;
   letter-spacing: 10px;
   line-height: 60px;
   text-align: center;
@@ -144,7 +144,7 @@ li.nav a:hover {
   padding: 4%;
   margin: 2%;
   color: white; /* Add the color of your font */
-  font-size: 30px; /* Add your font size*/
+  font-size: 25px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
@@ -218,4 +218,10 @@ li.nav a:hover {
   }
 }
 
-/* TODO: Add additional breakpoints based on your website's design
+/* TODO: Add additional breakpoints based on your website's design*/
+ @media screen and (max-width: 1000px) {
+  .flex-container {
+    flex-wrap: wrap;
+    top: 20%;
+  }
+}

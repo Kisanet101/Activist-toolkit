@@ -176,7 +176,8 @@ li.nav a:hover {
 .image-one, 
 .image-two, 
 .image-three,
-.image-four {
+.image-four, 
+.image-five {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -208,6 +209,9 @@ li.nav a:hover {
   }
 .image-four {
   background-image: url("https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2Fenlarged%20map%20.png?v=1596145649031");
+}
+.image-five {
+  background-image: url("https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2FEmptey%20Classroom.png?v=1596130033809");
 }
 
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
@@ -259,10 +263,9 @@ li.nav a:hover {
 .text-section3 {
   
   display: flex;
-   background-color: #85DCB;
+   text-align: center;
   padding: 20px 45px;
   margin: 35px;
-  text-align: center;
 }
 
 

@@ -37,9 +37,9 @@ h1 {
 /*TODO: Change the font-family property to your linked font*/
 h2 {
   letter-spacing: 3px;
-  font-size: 25px;
+  font-size: 30px;
   font-family: font-family: 'Bebas Neue', cursive;
-  color: #43d6b9ff;
+  color: #E8A87C;
   text-align: center;
   line-height: 1.3em;
 }
@@ -192,7 +192,7 @@ li.nav a:hover {
 
 /* TODO: Replace the current image URL with your own */
 .image-one {
-  background-image: url("https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2FQuality%20Reading%20Edu%20right%20.png?v=1596063308632");
+  background-image: url("https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2Fshutterstock_128872624-1-750x400.jpg?v=1596076433082");
 }
 
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */

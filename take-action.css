@@ -118,6 +118,7 @@
   transition: 0.2s;
   width: 85%;
   color: black;
+ 
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -128,7 +129,6 @@
   border-color: #43d6b9ff;
   border-style: solid;
   border-width: 2px;
-  
   top: 15px;
   left: 13px;
   height: 10px;
@@ -173,8 +173,6 @@ like a checkmark!
   height: 15px;
   width: 7px;
 }
-
-
 
 /******************************************************/
 /** CHANGE TAKE-ACTION.HTML CSS BASED ON SCREEN SIZE **/

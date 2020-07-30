@@ -187,7 +187,7 @@ li.nav a:hover {
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
 .main-message {
-  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
+ background-image: url(https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2FSS%20Kids%20proting%20ei.png?v=1596062698973");
 }
 
 /* TODO: Replace the current image URL with your own */
@@ -218,10 +218,13 @@ li.nav a:hover {
   }
 }
 
-/* TODO: Add additional breakpoints based on your website's design*/
- @media screen and (max-width: 1000px) {
+/* COME BACK!!! TODO: Add additional breakpoints based on your website's design*/
+ @media screen and (max-width: 500px) {
   .flex-container {
     flex-wrap: wrap;
     top: 20%;
+    .heading-home {
+      font-size:5px;
+    }
   }
 }

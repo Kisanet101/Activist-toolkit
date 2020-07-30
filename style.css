@@ -236,4 +236,16 @@ li.nav a:hover {
     }
   }
 }
- 
+.segregation, 
+.fewer-resources,
+.less-funding, 
+.lessqualified-teachers{
+    background-color: #C38D9E;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+   
+}  
+

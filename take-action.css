@@ -16,7 +16,7 @@
 
 /* Flexbox container that holds all flex items */
 .flex-container-action {
-  display: flex;
+   display: flex;
 
   position: absolute;
   padding: 0.5em 0;
@@ -27,8 +27,8 @@
 
   margin: 5% 0;
   width: 90%;
-  
- flex-direction: row;
+
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: start;
@@ -38,21 +38,21 @@
 
 /* Left box under title; item in .flex-container */
 .action-info-container {
-  width: 50%;
+  width: 100%;
   margin-right: 5%;
   margin-left: 0%;
   margin-top: 5%;
   margin-bottom: 5%;
-  padding: 35px;
+  padding-left: 35px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   font-size: 16px;
   flex-grow: 2;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 .action-info-container img{
-  display:flex; 
-  justify-content: flex-start;
-  width: 70%;
+width: 100%;
 }
 
 /* Right box under title; item in .flex-container */
@@ -106,7 +106,7 @@
 #my-list li {
   cursor: pointer;
   padding-top: 8px;
-  padding-right: 20px;
+  padding-right: 30px;
   padding-bottom: 8px; 
   padding-left: 35px;
   position: relative;
@@ -124,7 +124,8 @@
   position: absolute;
   border-color: #43d6b9ff;
   border-style: solid;
-  border-width: 2px;
+  border-width: 2px;  
+  
   top: 15px;
   left: 13px;
   height: 10px;

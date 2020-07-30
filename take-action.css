@@ -42,9 +42,9 @@
 
 /* Left box under title; item in .flex-container */
 .action-info-container {
-  width: 100%;
+  width: 50%;
   margin-right: 5%;
-  margin-left: 0;
+  margin-left: 0%;
   margin-top: 5%;
   margin-bottom: 5%;
   padding: 35px;
@@ -54,7 +54,9 @@
 }
 
 .action-info-container img{
-  width: 100%;
+  display:flex; 
+  justify-content: flex-start;
+  width: 70%;
 }
 
 /* Right box under title; item in .flex-container */

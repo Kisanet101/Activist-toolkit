@@ -7,11 +7,6 @@
   position: absolute;
   text-transform: uppercase;
   background-color: #C38D9E;
-  margin-top: 0px;
-  margin-botton: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  align-texts:center; 
 }
 
 
@@ -32,11 +27,12 @@
 
   margin: 5% 0;
   width: 90%;
-
-  flex-direction: row;
+  
+ flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: start;
+ 
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 

@@ -59,7 +59,7 @@ h2 {
 
 h3 {
  text-align: center;
-  font-size: 30px;
+  font-size: 60px;
    margin-top: 150px;
 }
 
@@ -76,6 +76,7 @@ h3 {
 h4 {
   margin-top: 100px;
   margin-bottom: 50px;
+  font-size: 90px;
 } 
 
 #texplain {

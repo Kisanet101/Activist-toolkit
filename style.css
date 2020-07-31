@@ -162,15 +162,17 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  
-  
-  
+  display:flex;
+  align-content:center;
   background-color: black;
-  padding: 55px, 45px;
+  padding: 45px, 45px, 45px, 45px;
+  margin-top:35px;
+  margin-top:35px;
+  margin-top:35px;
   margin-top:35px;
   width: 1730px;
-  height:1200px;
-  text-align:center;
+  height:300px;
+  
  
   
 }

@@ -162,12 +162,15 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
+  
+  
+  
   background-color: black;
-  padding: 20px 45px;
-  margin: 35px;
+  padding: 55px, 45px;
+  margin-top:35px;
   width: 1730px;
-  height:500px;
-  text-align:center
+  height:1200px;
+  text-align:center;
  
   
 }
@@ -293,7 +296,7 @@ justify-content:center;
 }
 .text-section2 {
   font-size: 20px;
-  padding-top: 5px;
+  padding-top: 0px;
   padding-bottom: 10px;
   margin-top: 10px;
   backgound-color: #C38D9E; 
@@ -303,7 +306,7 @@ justify-content:center;
   
   
   /* Design properties */
-  /* padding: 20px 45px;
+  /*                                                  
 
 }
 

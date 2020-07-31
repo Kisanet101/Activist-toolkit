@@ -9,8 +9,11 @@ h1 {
 }
 
 #explain-sonia {
-  width:30%;
+  width:33%;
   margin-left: 130px;
+  background-color: #C38D9E;
+  padding:10px;
+  border-radius: 12px;
 }
 
 
@@ -25,6 +28,9 @@ h1 {
 }
 #explain-nw {
   width:200%;
+  background-color: #C38D9E;
+  padding:10px;
+  border-radius: 12px;
 }
 
 #nelson-whitney  {

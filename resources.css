@@ -1,15 +1,19 @@
+h1 {
+  color: white;
+}
+
 #Sonia {
   margin-top: 30px;
   margin-left: 140px;
   border-radius: 12px;
 }
 
-h1 {
-  color: white;
-}
-
 #explain-sonia {
   width:30%;
   margin-left: 30px;
+}
+#nelson-whitney {
+display:flex;
+justify-content: flex-end;
 
 }

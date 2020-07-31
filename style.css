@@ -310,9 +310,12 @@ li.nav a:hover {
   border: 15px solid green;
 }
 
-.segregation {
-  display:flex; 
-  align-items: center;
+#sg,
+#fw,
+#lf,
+#lqt {
+  padding-top:1px;
+
 }
 
 

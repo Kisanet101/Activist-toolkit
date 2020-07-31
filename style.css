@@ -1,18 +1,9 @@
-/* 
-
-This CSS file is contains the CSS rule sets for 
-    - index.html
-    - any universal elements that all pages use
-
-The CSS for the take-action.html is in take-action.css
-
-*/
 
 /************************************************/
 /************* UNIVERSAL ELEMENTS ***************/
 /************************************************/
 
-/* TODO: Customize your font properties and background color for all elements inside the <body> and <html> tags */
+/* Customize your font properties and background color for all elements inside the <body> and <html> tags */
 body,
 html {
   height: 100%;
@@ -28,13 +19,13 @@ html {
 h1 {
   letter-spacing: 5px;
   font-size: 50px;
-  /*TODO: Change the font-family property to your linked font*/
+  /*Change the font-family property to your linked font*/
   font-family: font-family: 'Bebas Neue', cursive;
   color: #43d6b9ff;
   text-align: center;
 }
 
-/*TODO: Change the font-family property to your linked font*/
+/* Change the font-family property to your linked font*/
 h2 {
   letter-spacing: 3px;
   font-size: 30px;
@@ -44,7 +35,7 @@ h2 {
   line-height: 1.3em;
 }
 
-/*TODO: Change the color of a link when a person hovers over it*/
+/* Change the color of a link when a person hovers over it*/
 p a {
   color: #43d6b9ff;
   text-decoration: none;
@@ -53,10 +44,6 @@ p a {
 /************************************************/
 /*************** CSS FOR NAV BAR ****************/
 /************************************************/
-
-/* All of these TODOs are optional. You should change the styling based on your mockup */
-
-/* TODO (optional): Change the background color and/or border style */
 
 ul.nav-bar {
   /* Styling for the <ul class="nav-bar"> element */
@@ -69,15 +56,11 @@ ul.nav-bar {
   border-color: #E8A87C;
 }
 
-/* TODO (optional): Change the font size*/
-
 li.nav {
   /* Styling for the <li class="nav"> element */
   float: right;
   font-size: 15px;
 }
-
-/* TODO (optional): Change the font color, decoration, and/or case */
 
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
@@ -91,8 +74,7 @@ li.nav a {
   font-size: 1.3em;
 }
 
-/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
-
+/* : Change the background color and/or font color when the mouse hovers over an item */
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
   background-color: #41B3A3;
@@ -103,7 +85,6 @@ li.nav a:hover {
 /*********** CSS FOR FLEXBOX HEADING ************/
 /************************************************/
 
-/* TODO: Review the CSS properties to the flexbox container for title and intro text */
 .flex-container {
   display: flex; /* Set the flexbox display */
   flex-direction: row; /* Configure the flex items to row */
@@ -120,12 +101,8 @@ li.nav a:hover {
   left: 20%;
   right: 20%;
   top: 40%; /* Change this value to move the box up or down */
-
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
 }
 
-/* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
   padding: 2%;
   color:white;
@@ -133,12 +110,8 @@ li.nav a:hover {
   letter-spacing: 10px;
   line-height: 60px;
   text-align: center;
-
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
 }
 
-/* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
   background-color:#41B3A3; /* Add your own background color */
   padding: 4%;
@@ -148,21 +121,9 @@ li.nav a:hover {
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
-
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
 }
 
-/************************************************/
-/*************** PARALLAX SCROLL ****************/
-/************************************************/
-
-/*-----------TEXT SECTIONS-----------*/
-
-/* TODO (optional): Change the background color and/or text alignment */
-
 .text-section {
-
   background-color: black;
   padding: 20px 45px 20px 20px;
   margin-top:35px;
@@ -171,8 +132,8 @@ li.nav a:hover {
   margin-bottom:35px;
   text-align: center;
   height:330px;
- 
 }
+
 #wiei {
   font-size:50px;
 }
@@ -180,33 +141,7 @@ li.nav a:hover {
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
 
-  
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /*background-color: black;
-  padding: 20px 45px;
-  margin: 35px;
-  width: 1730px;
-  height:500px;
-  text-align:center
-/* TODO: Add the CSS selector for each image to the collective image rule set */
-
+/* Add the CSS selector for each image to the collective image rule set */
 .main-message,
 .image-one, 
 .image-two, 
@@ -220,31 +155,36 @@ li.nav a:hover {
   background-size: cover;
   min-height: 100%; /* This adjusts the height of the image */
 
-  /* TODO: Add the property to create the parallax scrolling effect here */
+  /* : the property to create the parallax scrolling effect here */
   background-attachment: fixed;
 }
 
-/* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
+/* : My picture */
 .main-message {
  background-image: url("https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2FJS10-20200323-p4-CivilRights-MD-4.jpg?v=1596075671894");
 }
 
-/* TODO: Replace the current image URL with your own */
+/* : My picture */
 .image-one {
   background-image: url("https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2Fshutterstock_128872624-1-750x400.jpg?v=1596076433082");
 }
 
-/* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
+/* : My picture*/
 .image-two {
  background-image: url("https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2Ftacqc6gtpkylrv2hmcaifq.jpg?v=1596083028261");
 }
-/* TODO: Add more background images by repeating the process above */
+
+/* My picture:  */
 .image-three {
     background-image: url("https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2Ffinal%20in%20edu%20.png?v=1596134504093");
   }
+
+/* My picture:  */
 .image-four {
   background-image: url("https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2Fenlarged%20map%20.png?v=1596145649031");
 }
+
+/* My picture:  */
 .image-five {
   background-image: url("https://cdn.glitch.com/3763ee11-0d71-4026-9736-f28ed6a814cd%2FEmptey%20Classroom.png?v=1596130033809");
 }

@@ -66,7 +66,7 @@ ul.nav-bar {
   overflow: hidden;
   background-color: #C38D9E;
   border-style: solid;
-  border-color: #C38D9E;
+  border-color: #E8A87C;
 }
 
 /* TODO (optional): Change the font size*/
@@ -82,7 +82,7 @@ li.nav {
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
-  color: #C38D9E;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -96,7 +96,7 @@ li.nav a {
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
   background-color: #41B3A3;
-  color: white;
+  color: #E8A87C;
 }
 
 /************************************************/

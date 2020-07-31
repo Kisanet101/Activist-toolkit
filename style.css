@@ -256,12 +256,13 @@ li.nav a:hover {
 .fewer-resources,
 .less-funding, 
 .lessqualified-teachers{
-    flex: display;
+    display: flex;
     flex-direction:column;
     flex-wrap: nowrap;
+    align-text:flex-start;
     background-color: #C38D9E;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 12px;
@@ -272,14 +273,9 @@ li.nav a:hover {
 .text-section3 {
   display: flex;
   text-align: center;
-  padding: 20px 45px;
+ padding-top:0px;
   margin: 35px;
-  
-  
-  
- 
-  width: 1730px;
-  height:500px;
+ height:700px;
   
 
 }
@@ -307,7 +303,7 @@ justify-content:center;
   
   
   /* Design properties */
-  
+  /* padding: 20px 45px;
 
 }
 

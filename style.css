@@ -64,7 +64,7 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #E8A87C;
+  background-color: #C38D9E;
   border-style: solid;
   border-color: #C38D9E;
 }
@@ -112,7 +112,7 @@ li.nav a:hover {
   align-items: center; /* Align the flex items to the center */
 
   /* Design properties */
-  background-color: #E8A87C;
+  background-color: #C38D9E;
   padding: 5px;
 
   /* Positioning properties */
@@ -128,7 +128,7 @@ li.nav a:hover {
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
   padding: 2%;
-  color: #C38D9E;
+  color: #white;
   font-size: 49px;
   letter-spacing: 10px;
   line-height: 60px;
@@ -298,25 +298,19 @@ li.nav a:hover {
     border-radius: 12px;
     margin-left: 15px;
     margin-right: 15px;
-  border: 15px solid green;
+  
 }  
 
 .text-section3 {
-    display: flex;
- padding-bottom:10px;
-  padding-top:15px;
-  margin-top: 90px;
+  display: flex;
+ padding-left:15px;
+  padding-right:15px;
+  margin-top: 50px;
   margin-bottom: 50px;
-  border: 15px solid green;
-}
-
-#sg,
-#fw,
-#lf,
-#lqt {
-  padding-top:1px;
+  hieght: 1500px;
 
 }
+
 
 
 

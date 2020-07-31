@@ -215,7 +215,7 @@ li.nav a:hover {
   }
 }
 
-/* COME BACK!!! TODO: Add additional breakpoints based on your website's design*/
+/*Add additional breakpoints based on your website's design*/
  @media screen and (max-width: 500px) {
   .flex-container {
     flex-wrap: wrap;
@@ -230,7 +230,6 @@ li.nav a:hover {
 .fewer-resources,
 .less-funding, 
 .lessqualified-teachers {
-    
     flex-direction:column;
     flex-wrap: nowrap;
     background-color: #C38D9E;
@@ -241,56 +240,28 @@ li.nav a:hover {
     border-radius: 12px;
     margin-left: 15px;
     margin-right: 15px;
-    
-  
 }  
 
 .text-section3 {
   display: flex;
- padding-left:15px;
+  padding-left:15px;
   padding-right:15px;
   margin-top: 50px;
   margin-bottom: 50px;
   hieght: 1500px;
-
 }
-
-
-
-
 
 h4 {
   font-size:50px;
-display: flex;
-justify-content:center;
- backgroud-color: #C38D9E;  
-  
-}
-.text-section2 {
-  font-size: 20px;
-  padding-top: 0px;
-  padding-bottom: 10px;
-  margin-top: 10px;
-  backgound-color: #C38D9E; 
-  
-  
-  
-  
-  
-  
-  /* Design properties */
-  /*                                                  
-
+ display: flex;
+ justify-content:center;
+ backgroud-color: #C38D9E;   
 }
 
-/*.image-four,
-.image-five {
-  display: flex; 
-  flex-wrap: nowrap;
-   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border-radius: 16px;
-  margin: 20px;
-}
+  
+  
+  
+  
+  
+  
+ 

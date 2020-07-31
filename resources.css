@@ -37,3 +37,16 @@ h1 {
   margin-left: 100px;
   border-radius: 12px;
 }
+
+h2 {
+  margin-top: 100px;
+}
+
+.all-resources {
+  display: flex;
+  justify-content: space-around;
+}
+
+.aclu {
+  width:90px;
+}

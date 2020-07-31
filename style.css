@@ -128,7 +128,7 @@ li.nav a:hover {
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
   padding: 2%;
-  color: #white;
+  color: ##E8A87C;
   font-size: 49px;
   letter-spacing: 10px;
   line-height: 60px;
@@ -170,12 +170,11 @@ li.nav a:hover {
   margin-right:15px;
   margin-bottom:35px;
   text-align: center;
-  height:500px;
+  height:530px;
  
 }
-#qehr {
-color: white;
-  align-text:center;
+#wiei {
+  font-size:50px;
 }
 
 
@@ -294,7 +293,6 @@ color: white;
     
     flex-direction:column;
     flex-wrap: nowrap;
-    
     background-color: #C38D9E;
     padding-top: 1px;
     padding-bottom: 100px;
@@ -303,6 +301,7 @@ color: white;
     border-radius: 12px;
     margin-left: 15px;
     margin-right: 15px;
+    
   
 }  
 
@@ -333,6 +332,7 @@ justify-content:center;
   padding-bottom: 10px;
   margin-top: 10px;
   backgound-color: #C38D9E; 
+  
   
   
   

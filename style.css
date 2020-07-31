@@ -128,7 +128,7 @@ li.nav a:hover {
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
   padding: 2%;
-  color: ##E8A87C;
+  color:white;
   font-size: 49px;
   letter-spacing: 10px;
   line-height: 60px;
@@ -143,8 +143,8 @@ li.nav a:hover {
   background-color:#41B3A3; /* Add your own background color */
   padding: 4%;
   margin: 2%;
-  color: white; /* Add the color of your font */
-  font-size: 25px; /* Add your font size*/
+  color: #E8A87C; /* Add the color of your font */
+  font-size: 30px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
@@ -170,7 +170,7 @@ li.nav a:hover {
   margin-right:15px;
   margin-bottom:35px;
   text-align: center;
-  height:530px;
+  height:330px;
  
 }
 #wiei {

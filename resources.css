@@ -3,25 +3,31 @@ h1 {
 }
 
 #Sonia {
-  margin-top: 30px;
-  margin-left: 140px;
+  margin-top: 50px;
+  margin-left: 240px;
   border-radius: 12px;
 }
 
 #explain-sonia {
   width:30%;
-  margin-left: 30px;
+  margin-left: 130px;
 }
 
 
 .second-img {
   position: absolute;
-  right: 120px;
+  right: 520px;
   top: 200px;
   width: 300px;
   padding: 10px;
   margin-top: 0px;
+  margin-left: 240px;
 }
 #explain-nw {
   width:200%;
+}
+
+#nelson-whitney  {
+  margin-left: 100px;
+  border-radius: 12px;
 }

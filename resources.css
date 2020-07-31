@@ -4,7 +4,7 @@ h1 {
 
 #Sonia {
   margin-top: 50px;
-  margin-left: 240px;
+  margin-left: 300px;
   border-radius: 12px;
 }
 
@@ -40,13 +40,20 @@ h1 {
 
 h2 {
   margin-top: 100px;
+  color: white;
 }
 
 .all-resources {
   display: flex;
   justify-content: space-around;
+   
 }
 
-.aclu {
-  width:90px;
+#aclu, 
+#edtrust,
+#ttc,
+#edbuild {
+  width:300px;
+  border-radius: 12px;
 }
+

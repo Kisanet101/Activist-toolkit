@@ -162,23 +162,24 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: #0D38D3;
-  padding: 20px 45px;
-  margin: 35px;
-  text-align: center;
-}
-
-
-/*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
-/*display:flex;
+ 
   background-color: black;
-  padding: 45px, 45px, 45px, 45px;
+  padding: 20px 45px 20px 20px;
   margin-top:35px;
   margin-left:35px;
   margin-right:15px;
   margin-bottom:35px;
-  width: 1830px;
-  height:400px;
+  text-align: center;
+  height:600px;
+}
+
+
+/*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
+
+  
+  
+
+  
 
 
 
@@ -257,6 +258,13 @@ li.nav a:hover {
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
 @media screen and (max-width: 700px) {
+  .main-message,
+  .image-one,
+  .image-two,
+  .image-three,
+  .image-four {
+    background-attachment: scroll;
+  }
   .flex-container {
     flex-wrap: wrap;
     top: 20%;
@@ -273,6 +281,12 @@ li.nav a:hover {
     }
   }
 }
+
+
+
+
+
+
 .segregation, 
 .fewer-resources,
 .less-funding, 

@@ -298,17 +298,23 @@ li.nav a:hover {
     border-radius: 12px;
     margin-left: 15px;
     margin-right: 15px;
+  border: 15px solid green;
 }  
 
 .text-section3 {
   display: flex;
-  align
- padding-top:0px;
-  margin: 0px;
- height:700px;
-  
+  align-items: flex-start;
+ padding-bottom:55px;
+  padding-top:55px;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  border: 15px solid green;
 }
 
+.segregation {
+  display:flex; 
+  align-items: center;
+}
 
 
 
